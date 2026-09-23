@@ -1,0 +1,1 @@
+If you are able to read this line, then you know how to read mode works.
