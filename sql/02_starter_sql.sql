@@ -1,7 +1,9 @@
 DROP DATABASE datab1;
 DROP DATABASE IF EXISTS startersql;
+
 CREATE DATABASE ecom;
 USE ecom;
+
 CREATE TABLE orders (
     order_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_name VARCHAR(100),
@@ -17,6 +19,7 @@ CREATE TABLE orders (
     order_status VARCHAR(30),
     rating INT
 );
+
 INSERT INTO orders
 (customer_name, city, product, category, quantity, price_per_unit, discount_percent, order_date, delivery_date, payment_mode, order_status, rating)
 VALUES
